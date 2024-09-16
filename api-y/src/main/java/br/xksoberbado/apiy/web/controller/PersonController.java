@@ -12,8 +12,7 @@ import java.util.UUID;
 
 @Slf4j
 @RestController
-//@RequestMapping("v1/persons")
-@RequestMapping("v2")
+@RequestMapping("v1/persons")
 public class PersonController {
 
     private static final List<Person> PERSONS = List.of(
